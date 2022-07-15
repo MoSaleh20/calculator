@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link id="theme-style" rel="stylesheet" href="">
+</head>
+<body>
+    <div class="container" id="main-container">
+        <div class="text">
+            <span>*The page's theme can be changed from 
+                the buttons on the top left which will be saved for your next visit.</span>
+        </div>
+        <div class="calc">
+            <input data-mode='black-theme' type="button" id='black' class="theme-mode" name='style' value="">
+            <input data-mode='white-theme' type="button" id='white' class="theme-mode" name='style' value="">
+            <input type="text" readonly id="result">
+            <input type="button" id='plus' class="clickable" name='+' value="+">
+            <input type="button" id="minus" class="clickable" name='-' value="-">
+            <input type="button" id="mult" class="clickable" name='*' value="*">
+            <input type="button" id="div" class="clickable" name='/' value="/">
+            <input type="button" id="seven" class="clickable" name='num' value="7">
+            <input type="button" id="eight" class="clickable" name='num' value="8">
+            <input type="button" id="nine" class="clickable" name='num' value="9">
+            <input type="button" id="four" class="clickable" name='num' value="4">
+            <input type="button" id="five" class="clickable" name='num' value="5">
+            <input type="button" id="six" class="clickable" name='num' value="6">
+            <input type="button" id="one" class="clickable" name='num' value="1">
+            <input type="button" id="two" class="clickable" name='num' value="2">
+            <input type="button" id="three" class="clickable" name='num' value="3">
+            <input type="button" id="zero" class="clickable" name='num' value="0">
+            <input type="button" id="dot" class="clickable" name='num' value=".">
+            <input type="button" id="clear" class="clickable" value="C">
+            <input type="button" id="equal" class="clickable" value="=">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
